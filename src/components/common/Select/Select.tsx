@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import type { UseFormRegisterReturn } from "react-hook-form";
-import { cva, type VariantProps } from "class-variance-authority";
+import { cva } from "class-variance-authority";
 
 const selectVariants = cva(
   "w-full px-4 py-3 rounded-lg border transition-all duration-200 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed appearance-none bg-no-repeat bg-[right_1rem_center] bg-[length:1.5em_1.5em]",
