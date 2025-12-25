@@ -33,6 +33,7 @@ export interface SelectProps
   hint?: string;
   options: SelectOption[];
   registration?: Partial<UseFormRegisterReturn>;
+  placeholder?: string;
 }
 
 const Select = forwardRef<HTMLSelectElement, SelectProps>(

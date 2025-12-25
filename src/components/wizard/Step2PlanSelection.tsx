@@ -59,7 +59,7 @@ const Step2PlanSelection = () => {
 
   useEffect(() => {
     if (isGoldDisabled && planSelection.planType === PlanType.GOLD) {
-      setValue("planType", undefined, { shouldValidate: true });
+      setValue("planType", "", { shouldValidate: true });
       dispatch(updatePlanSelection({ planType: null }));
     }
   }, [isGoldDisabled, planSelection.planType, setValue, dispatch]);
